@@ -1,0 +1,21 @@
+in react u need to return on 1 element 
+so we use div to return so instead we ise fragments to return 
+- fragments "<>" 
+
+function you export u need to use capital letters like 
+Chai.js or Chai.jsx(in vite)
+
+---------- Hooks ------
+- useState
+- useEffect
+import { useState } from "react";
+
+useState gets 2 things soo write in array format  
+let [counter, setCounter] = useState(10)
+- counter is the state 
+- setCounter is the function to update the state
+- useState is a hook that allows you to add state to functional components 
+- useState is a function that returns an array with two elements: the current state value and a function
+to update the state value.
+
+
